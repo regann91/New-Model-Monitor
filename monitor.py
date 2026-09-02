@@ -72,10 +72,6 @@ def check_fal(cache, new_cache):
 def check_kie(cache, new_cache):
     # kie.ai's changelog is rendered client-side, and its Cloudflare Worker serves an
     # empty "No updates found" stub to plain HTTP clients — a real browser is required.
-    # Note: don't wait for "networkidle" here — kie.ai has ongoing background requests
-    # (analytics/chat widget) that never let the network go fully idle, so that wait
-    # condition times out even though the real content loads within a few seconds.
-    browser = None
     try:
         with sync_playwright() as p:
             browser = p.chromium.launch()
@@ -83,11 +79,21 @@ def check_kie(cache, new_cache):
                 user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
                            "(KHTML, like Gecko) Chrome/120.0 Safari/537.36",
                 viewport={"width": 1280, "height": 900},
+                locale="en-US",
             )
-            page.goto(KIE_URL, wait_until="domcontentloaded", timeout=45000)
-            page.wait_for_selector("div.group.rounded-2xl.border", timeout=25000)
-            cards = page.query_selector_all("div.group.rounded-2xl.border")
+            try:
+                page.goto(KIE_URL, wait_until="domcontentloaded", timeout=45000)
+                page.wait_for_selector("div.group.rounded-2xl.border", timeout=30000)
+            except Exception as inner_e:
+                # Save debug artifacts so we can see what the runner actually hit
+                # (real slow load vs. a Cloudflare bot-check interstitial)
+                page.screenshot(path="kie_debug.png", full_page=True)
+                with open("kie_debug.html", "w", encoding="utf-8") as f:
+                    f.write(page.content())
+                browser.close()
+                raise inner_e
 
+            cards = page.query_selector_all("div.group.rounded-2xl.border")
             current = []
             for card in cards:
                 title_el = card.query_selector("h3")
