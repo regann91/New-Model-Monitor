@@ -32,7 +32,17 @@ jobs:
           RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
           NOTIFY_EMAIL: ${{ secrets.NOTIFY_EMAIL }}
         run: python monitor.py
-
+        
+      - name: Upload debug artifacts if Kie.ai check failed
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: kie-debug
+          path: |
+            kie_debug.png
+            kie_debug.html
+          if-no-files-found: ignore
+          
       - name: Commit and push updated cache
         run: |
           git config --global user.name "github-actions[bot]"
