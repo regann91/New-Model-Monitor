@@ -1,4 +1,33 @@
 {
     "kie": [],
-    "fal": {}
+    "fal": {
+        "minimax/h3-max-turbo/text-to-video": "H3 Max Turbo Text to Video",
+        "minimax/h3-max-turbo/image-to-video": "H3 Max Turbo Image to Video",
+        "minimax/h3-max/reference-to-video": "H3 Max Reference to Video",
+        "fal-ai/kling-video/o3/4k/video-to-video/reference": "Kling Video 4K Video to Video",
+        "fal-ai/kling-video/o3/4k/video-to-video/edit": "Kling Video 4K Video to Video Edit",
+        "google/gemini-omni-flash/v1.1/edit": "Gemini Omni Flash 1.1 Edit",
+        "google/gemini-omni-flash/v1.1/text-to-video": "Gemini Omni Flash 1.1 Text to Video",
+        "google/gemini-omni-flash/v1.1/image-to-video": "Gemini Omni Flash 1.1 Image to Video",
+        "google/gemini-omni-flash/v1.1/reference-to-video": "Gemini Omni Flash 1.1 Reference to Video",
+        "bria/video/background-removal/green-screen-despill": "Video",
+        "meta/muse-image/edit": "Meta Muse Image Edit",
+        "meta/muse-image/text-to-image": "Meta Muse Image Text to Image",
+        "minimax/h3-max/image-to-video": "H3 Max Image to Video",
+        "minimax/h3-max/text-to-video": "MiniMax H3 Max Text to Video",
+        "fal-ai/vggt-1b": "VGGT-1B",
+        "recraft/v4/create-style": "Recraft V4 Styles Create Style",
+        "recraft/v4/pro/create-style": "Recraft V4 Styles Pro Create Style",
+        "recraft/v4/style/text-to-image": "Recraft V4 Styles Text to Image",
+        "recraft/v4/style/text-to-vector": "Recraft V4 Styles Text to Vector",
+        "recraft/v4/style/pro/text-to-image": "Recraft V4 Styles Pro Text to Image",
+        "recraft/v4/style/pro/text-to-vector": "Recraft V4 Styles Pro Text to Vector",
+        "bria/fibo-edit-1.5/edit": "Fibo Edit 1.5 Image Editing",
+        "google/virtual-try-on": "Google Virtual Try On",
+        "bria/fibo-gen-1.5/text-to-image": "Fibo Gen 1.5 Text to Image",
+        "meshy/v7/text-to-3d": "V7 Text to 3D",
+        "alibaba/wan-3.0-prime/text-to-video": "Wan 3.0 Prime",
+        "alibaba/wan-3.0-prime/reference-to-video": "Wan 3.0 Prime",
+        "alibaba/wan-3.0-prime/image-to-video": "Wan 3.0 Prime"
+    }
 }
