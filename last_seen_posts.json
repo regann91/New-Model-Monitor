@@ -1,6 +1,7 @@
 {
     "kie": [],
     "fal": {
+        "minimax/h3-max/director": "H3 Max Director",
         "minimax/h3-max-turbo/text-to-video": "H3 Max Turbo Text to Video",
         "minimax/h3-max-turbo/image-to-video": "H3 Max Turbo Image to Video",
         "minimax/h3-max/reference-to-video": "H3 Max Reference to Video",
@@ -27,7 +28,6 @@
         "bria/fibo-gen-1.5/text-to-image": "Fibo Gen 1.5 Text to Image",
         "meshy/v7/text-to-3d": "V7 Text to 3D",
         "alibaba/wan-3.0-prime/text-to-video": "Wan 3.0 Prime",
-        "alibaba/wan-3.0-prime/reference-to-video": "Wan 3.0 Prime",
-        "alibaba/wan-3.0-prime/image-to-video": "Wan 3.0 Prime"
+        "alibaba/wan-3.0-prime/reference-to-video": "Wan 3.0 Prime"
     }
 }
