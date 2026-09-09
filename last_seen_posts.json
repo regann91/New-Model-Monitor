@@ -1,13 +1,14 @@
 {
     "kie": [],
     "fal": {
+        "minimax/h3-max/multi-angle/image-to-video": "H3 Max Multi Angle",
         "openai/gpt-image-2.5/sunburst/edit": "Gpt Image 2.5 Sunburst Edit ",
         "openai/gpt-image-2.5/sunburst/text-to-image": "Gpt Image 2.5 Sunburst Text to Image",
         "openai/gpt-image-2.5/flare/edit": "Gpt Image 2.5 Flare Edit",
         "openai/gpt-image-2.5/flare/text-to-image": "Gpt Image 2.5 Flare Text to Image",
-        "bria/ad-delayer": "Bria Ad Delayer",
+        "bria/ad-delayer": "Bria Ad Delayer: Convert Flat Ads into Editable Layers | fal",
         "fal-ai/elevenlabs/forced-alignment": "Elevenlabs - Forced Alignment",
-        "bria/increase-resolution": "Bria Increase Resolution Image",
+        "bria/increase-resolution": "Bria Increase Resolution: Upscale Images up to 4x Without Losing Detail | fal",
         "minimax/h3-max/director": "H3 Max Director",
         "minimax/h3-max-turbo/text-to-video": "H3 Max Turbo Text to Video",
         "minimax/h3-max-turbo/image-to-video": "H3 Max Turbo Image to Video",
@@ -27,7 +28,6 @@
         "recraft/v4/create-style": "Recraft V4 Styles Create Style",
         "recraft/v4/pro/create-style": "Recraft V4 Styles Pro Create Style",
         "recraft/v4/style/text-to-image": "Recraft V4 Styles Text to Image",
-        "recraft/v4/style/text-to-vector": "Recraft V4 Styles Text to Vector",
-        "recraft/v4/style/pro/text-to-image": "Recraft V4 Styles Pro Text to Image"
+        "recraft/v4/style/text-to-vector": "Recraft V4 Styles Text to Vector"
     }
 }
