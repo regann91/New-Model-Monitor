@@ -1,7 +1,6 @@
 {
     "kie": [],
     "fal": {
-        "minimax/h3-max/multi-angle/image-to-video": "H3 Max Multi Angle",
         "openai/gpt-image-2.5/sunburst/edit": "Gpt Image 2.5 Sunburst Edit ",
         "openai/gpt-image-2.5/sunburst/text-to-image": "Gpt Image 2.5 Sunburst Text to Image",
         "openai/gpt-image-2.5/flare/edit": "Gpt Image 2.5 Flare Edit",
@@ -28,6 +27,7 @@
         "recraft/v4/create-style": "Recraft V4 Styles Create Style",
         "recraft/v4/pro/create-style": "Recraft V4 Styles Pro Create Style",
         "recraft/v4/style/text-to-image": "Recraft V4 Styles Text to Image",
-        "recraft/v4/style/text-to-vector": "Recraft V4 Styles Text to Vector"
+        "recraft/v4/style/text-to-vector": "Recraft V4 Styles Text to Vector",
+        "recraft/v4/style/pro/text-to-image": "Recraft V4 Styles Pro Text to Image"
     }
 }
