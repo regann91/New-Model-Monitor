@@ -1,7 +1,7 @@
 {
     "kie": [],
     "fal": {
-        "blackforestlabs/flux-3/edit-video": "Flux 3 Edit Video",
+        "blackforestlabs/flux-3/edit-video": "Flux 3 FAST Edit Video",
         "minimax/h3-max/multi-angle/image-to-video": "H3 Max Multi Angle",
         "openai/gpt-image-2.5/sunburst/edit": "GPT Image 2.5 Sunburst Edit ",
         "openai/gpt-image-2.5/sunburst/text-to-image": "GPT Image 2.5 Sunburst Text to Image",
