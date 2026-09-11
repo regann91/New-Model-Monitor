@@ -1,6 +1,7 @@
 {
     "kie": [],
     "fal": {
+        "minimax/h3-max/camera-controls": "H3 Max Camera Controls",
         "blackforestlabs/flux-3/edit-video": "Flux 3 FAST Edit Video",
         "minimax/h3-max/multi-angle/image-to-video": "H3 Max Multi Angle",
         "openai/gpt-image-2.5/sunburst/edit": "GPT Image 2.5 Sunburst Edit ",
@@ -27,7 +28,6 @@
         "minimax/h3-max/text-to-video": "MiniMax H3 Max Text to Video",
         "fal-ai/vggt-1b": "VGGT-1B",
         "recraft/v4/create-style": "Recraft V4 Styles Create Style",
-        "recraft/v4/pro/create-style": "Recraft V4 Styles Pro Create Style",
-        "recraft/v4/style/text-to-image": "Recraft V4 Styles Text to Image"
+        "recraft/v4/pro/create-style": "Recraft V4 Styles Pro Create Style"
     }
 }
