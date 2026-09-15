@@ -1,6 +1,7 @@
 {
     "kie": [],
     "fal": {
+        "creatify/boreal": "Boreal",
         "elevenlabs/music/v2.5": "Elevenlabs Music v2.5",
         "elevenlabs/music/v2": "Elevenlabs Music v2",
         "fal-ai/id-v2v/relight": "ID-V2V Relight",
@@ -27,7 +28,6 @@
         "bria/video/background-removal/green-screen-despill": "Video",
         "meta/muse-image/edit": "Meta Muse Image Edit",
         "meta/muse-image/text-to-image": "Meta Muse Image Text to Image",
-        "minimax/h3-max/image-to-video": "H3 Max Image to Video",
-        "minimax/h3-max/text-to-video": "MiniMax H3 Max Text to Video"
+        "minimax/h3-max/image-to-video": "H3 Max Image to Video"
     }
 }
