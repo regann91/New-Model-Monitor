@@ -1,6 +1,9 @@
 {
     "kie": [],
     "fal": {
+        "bytedance/seedance-2.0/us/text-to-video": "Seedance 2.0 US Text to Video",
+        "bytedance/seedance-2.0/us/reference-to-video": "Seedance 2.0 US Reference to Video",
+        "bytedance/seedance-2.0/us/image-to-video": "Seedance 2.0 US Image to Video",
         "creatify/boreal": "Boreal",
         "elevenlabs/music/v2.5": "Elevenlabs Music v2.5",
         "elevenlabs/music/v2": "Elevenlabs Music v2",
@@ -25,9 +28,6 @@
         "google/gemini-omni-flash/v1.1/text-to-video": "Gemini Omni Flash 1.1 Text to Video",
         "google/gemini-omni-flash/v1.1/image-to-video": "Gemini Omni Flash 1.1 Image to Video",
         "google/gemini-omni-flash/v1.1/reference-to-video": "Gemini Omni Flash 1.1 Reference to Video",
-        "bria/video/background-removal/green-screen-despill": "Video",
-        "meta/muse-image/edit": "Meta Muse Image Edit",
-        "meta/muse-image/text-to-image": "Meta Muse Image Text to Image",
-        "minimax/h3-max/image-to-video": "H3 Max Image to Video"
+        "bria/video/background-removal/green-screen-despill": "Video"
     }
 }
