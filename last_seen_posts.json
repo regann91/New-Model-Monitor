@@ -24,10 +24,6 @@
         "minimax/h3-max/reference-to-video": "H3 Max Reference to Video",
         "fal-ai/kling-video/o3/4k/video-to-video/reference": "Kling Video 4K Video to Video",
         "fal-ai/kling-video/o3/4k/video-to-video/edit": "Kling Video 4K Video to Video Edit",
-        "google/gemini-omni-flash/v1.1/edit": "Gemini Omni Flash 1.1 Edit",
-        "google/gemini-omni-flash/v1.1/text-to-video": "Gemini Omni Flash 1.1 Text to Video",
-        "google/gemini-omni-flash/v1.1/image-to-video": "Gemini Omni Flash 1.1 Image to Video",
-        "google/gemini-omni-flash/v1.1/reference-to-video": "Gemini Omni Flash 1.1 Reference to Video",
-        "bria/video/background-removal/green-screen-despill": "Video"
+        "google/gemini-omni-flash/v1.1/edit": "Gemini Omni Flash 1.1 Edit"
     }
 }
