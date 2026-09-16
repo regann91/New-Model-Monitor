@@ -1,6 +1,8 @@
 {
     "kie": [],
     "fal": {
+        "xai/grok-voice/realtime": "Grok Voice",
+        "xai/grok-voice": "Grok Voice",
         "bytedance/seedance-2.0/us/text-to-video": "Seedance 2.0 US Text to Video",
         "bytedance/seedance-2.0/us/reference-to-video": "Seedance 2.0 US Reference to Video",
         "bytedance/seedance-2.0/us/image-to-video": "Seedance 2.0 US Image to Video",
@@ -22,8 +24,6 @@
         "minimax/h3-max-turbo/text-to-video": "H3 Max Turbo Text to Video",
         "minimax/h3-max-turbo/image-to-video": "H3 Max Turbo Image to Video",
         "minimax/h3-max/reference-to-video": "H3 Max Reference to Video",
-        "fal-ai/kling-video/o3/4k/video-to-video/reference": "Kling Video 4K Video to Video",
-        "fal-ai/kling-video/o3/4k/video-to-video/edit": "Kling Video 4K Video to Video Edit",
-        "google/gemini-omni-flash/v1.1/edit": "Gemini Omni Flash 1.1 Edit"
+        "fal-ai/kling-video/o3/4k/video-to-video/reference": "Kling Video 4K Video to Video"
     }
 }
