@@ -1,6 +1,8 @@
 {
     "kie": [],
     "fal": {
+        "bria/fibo-edit-1.5/virtual-try-on": "Bria Virtual Try-On (FIBO-Edit-1.5)",
+        "bria/fibo-edit-1.5/product-holding": "Bria Product Holding (FIBO-Edit-1.5)",
         "xai/grok-voice/realtime": "Grok Voice",
         "xai/grok-voice": "Grok Voice",
         "bytedance/seedance-2.0/us/text-to-video": "Seedance 2.0 US Text to Video",
@@ -22,8 +24,6 @@
         "bria/increase-resolution": "Bria Increase Resolution: Upscale Images up to 4x Without Losing Detail | fal",
         "minimax/h3-max/director": "H3 Max Director",
         "minimax/h3-max-turbo/text-to-video": "H3 Max Turbo Text to Video",
-        "minimax/h3-max-turbo/image-to-video": "H3 Max Turbo Image to Video",
-        "minimax/h3-max/reference-to-video": "H3 Max Reference to Video",
-        "fal-ai/kling-video/o3/4k/video-to-video/reference": "Kling Video 4K Video to Video"
+        "minimax/h3-max-turbo/image-to-video": "H3 Max Turbo Image to Video"
     }
 }
