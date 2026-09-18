@@ -1,6 +1,7 @@
 {
     "kie": [],
     "fal": {
+        "minimax/h3-max/lip-sync/image-to-video": "H3 Max Lip Sync Image to Video",
         "bria/fibo-edit-1.5/virtual-try-on": "Bria Virtual Try-On (FIBO-Edit-1.5)",
         "bria/fibo-edit-1.5/product-holding": "Bria Product Holding (FIBO-Edit-1.5)",
         "xai/grok-voice/realtime": "Grok Voice",
@@ -23,7 +24,6 @@
         "fal-ai/elevenlabs/forced-alignment": "Elevenlabs - Forced Alignment",
         "bria/increase-resolution": "Bria Increase Resolution: Upscale Images up to 4x Without Losing Detail | fal",
         "minimax/h3-max/director": "H3 Max Director",
-        "minimax/h3-max-turbo/text-to-video": "H3 Max Turbo Text to Video",
-        "minimax/h3-max-turbo/image-to-video": "H3 Max Turbo Image to Video"
+        "minimax/h3-max-turbo/text-to-video": "H3 Max Turbo Text to Video"
     }
 }
