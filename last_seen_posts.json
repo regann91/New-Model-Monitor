@@ -1,6 +1,9 @@
 {
     "kie": [],
     "fal": {
+        "bytedance/seedance-2.5/us/reference-to-video": "Seedance 2.5 US Reference to Video",
+        "bytedance/seedance-2.5/us/image-to-video": "Seedance 2.5 US Image to Video",
+        "bytedance/seedance-2.5/us/text-to-video": "Seedance 2.5 US Text to Video",
         "minimax/h3-max/lip-sync/image-to-video": "H3 Max Lip Sync Image to Video",
         "bria/fibo-edit-1.5/virtual-try-on": "Bria Virtual Try-On (FIBO-Edit-1.5)",
         "bria/fibo-edit-1.5/product-holding": "Bria Product Holding (FIBO-Edit-1.5)",
@@ -21,9 +24,6 @@
         "openai/gpt-image-2.5/flare/edit": "GPT Image 2.5 Flare Edit",
         "openai/gpt-image-2.5/flare/text-to-image": "GPT Image 2.5 Flare Text to Image",
         "bria/ad-delayer": "Bria Ad Delayer: Convert Flat Ads into Editable Layers | fal",
-        "fal-ai/elevenlabs/forced-alignment": "Elevenlabs - Forced Alignment",
-        "bria/increase-resolution": "Bria Increase Resolution: Upscale Images up to 4x Without Losing Detail | fal",
-        "minimax/h3-max/director": "H3 Max Director",
-        "minimax/h3-max-turbo/text-to-video": "H3 Max Turbo Text to Video"
+        "fal-ai/elevenlabs/forced-alignment": "Elevenlabs - Forced Alignment"
     }
 }
